@@ -1,0 +1,124 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="content-type" content="application/xhtml+xml; charset=utf-8" />
+    <title>The Hollies, Sidcup</title>
+    <style type="text/css">
+            body,
+            div {
+                margin: 0;
+                padding: 0;
+            }
+
+            body {
+                /* Disable scrollbars and ensure that the body fills the window */
+                overflow: hidden;
+                width: 100%;
+                height: 100%;
+            }
+
+            #header {
+                /* Provide scrollbars if needed and fix the header dimensions */
+                overflow: auto;
+                position: absolute;
+                width: 100%;
+                height: 260px;
+              	background-color: black;
+            }
+
+            #main {
+                /* Provide scrollbars if needed, position below header, and derive height from top/bottom */
+                overflow: auto;
+                position: absolute;
+                width: 100%;
+                top: 200px;
+                bottom: 0;
+            }
+
+      </style>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- FontAwesome CSS -->
+    <!--link rel="stylesheet" href="css/font-awesome.min.css"-->
+    <!-- ElegantFonts CSS -->
+    <!--link rel="stylesheet" href="css/elegant-fonts.css"-->
+    <!-- themify-icons CSS -->
+    <!--link rel="stylesheet" href="css/themify-icons.css"-->
+    <!-- Swiper CSS -->
+    <!--link rel="stylesheet" href="css/swiper.min.css"-->
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="top-header-bar">
+        <div class="container">
+          <div class="row flex-wrap justify-content-center justify-content-lg-between align-items-lg-center">
+            <div class="col-12 d-flex flex-wrap justify-content-between align-items-center">
+              <nav class="site-navigation d-flex justify-content-end align-items-center">
+                <ul class="d-flex flex-column flex-lg-row justify-content-lg-end align-content-center">
+                  <li><a href="index.html">HOME</a></li>
+                  <li><a href="about.html">ABOUT</a></li>
+                  <li><a href="news.html">NEWS</a></li>
+                  <li class="current-menu-item"><a href="membership.html">MEMBERSHIP</a></li>
+                  <li><a href="http://theholliescountrysideclub.weebly.com/" target="_blank">LEISURE
+                      CENTRE</a></li>
+                  <li><a href="committee.html">COMMITTEE</a></li>
+                </ul>
+              </nav>
+              <!-- .site-navigation -->
+              <div class="hamburger-menu d-lg-none"> <span></span> <span></span>
+                <span></span> <span></span> </div>
+              <!-- .hamburger-menu --> </div>
+            <!-- .col --> </div>
+          <!-- .row --> </div>
+        <!-- .container --> </div>
+      <!-- .nav-bar --> </header>
+    <!-- .site-header -->
+    <!--div id="header">HEADER</div-->
+    <div style="overflow:auto;position:absolute;height:100%;width:100%;background-image:url(res/background.jpg);background-attachment: fixed;background-size:cover;background-repeat:no-repeat;background-position:center center;object-position:50% 50%"><br />
+      <div style="width:500px;margin-left:calc((100% - 980px) / 2);width:980px">
+        <div style="background-color:rgba(5, 5, 5, 0.4);width:980px;padding-left:15px">
+          <div style="padding-top:120px">
+            <h1 class="display-3" style="color: #a3956d">Membership</h1>
+          </div>
+          <div style="width:500px;padding-top:20px;padding-bottom:100px;padding-left:20px;background-color:rgba(0,0,0,0.6)">
+            <p style="color: white">The Hollies Residents Association (HRA)
+              exists to: </p>
+            <ul>
+              <li style="color: white">Keep The Hollies an attractive, peaceful
+                and desirable place to live</li>
+              <li style="color: white">Represent the views and interests of
+                residents of The Hollies to bodies such as Countryside
+                Properties PLC and LB Bexley Council.</li>
+              <li style="color: white">Communicate news of interest to residents</li>
+              <li style="color: white">Organise social events for residents</li>
+            </ul>
+            <p></p>
+            <p style="color: white">Please note that the Hollies Residents
+              Association is a different entity to the HRA Management Company
+              (Kent) Ltd. (aka "Manco"); the latter is the company which runs
+              the leisure centre at The Hollies (see link above). Any enquiries
+              regarding the leisure centre should be addressed to them.</p>
+            <p style="color: white">We ask residents for a membership fee of £4
+              per year to cover our expenses. Please join or renew your
+              membership online using the PayPal button below to pay £4 by
+              debit/credit card or using a PayPal account if you have one.</p>
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+              <input name="cmd" value="_s-xclick" type="hidden" /> <input name="hosted_button_id"
+
+                value="ZDHXS3DNLPY9L" type="hidden" /> <input src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_buynowCC_LG.gif"
+
+                name="submit" alt="PayPal – The safer, easier way to pay online!"
+
+                border="0" type="image" /> <img alt="" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif"
+
+                border="0" height="1" width="1" /> </form>
+          </div>
+          <div style="margin-top:120px">   </div>
+        </div>
+      </div>
+    </div>
+    <!--[if lt IE 7]>
+        <script type="text/javascript">            var elMain = document.getElementById('main');            setMainDims();            document.body.onresize = setMainDims;            function setMainDims() {                elMain.style.height = (document.body.clientHeight - 200) + 'px';                elMain.style.width = '99%'                setTimeout("elMain.style.width = '100%'", 0);            }        </script><![endif]-->
+  </body>
+</html>
